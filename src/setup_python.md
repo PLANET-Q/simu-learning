@@ -28,7 +28,7 @@ https://www.anaconda.com/download/
 
 ダウンロードした exeファイルを実行します。
 いろいろ聞かれたりしますが基本的にはそのまま Nextで大丈夫ですが、
- **下の画像のAdd Anaconda to my PATH environment variableの部分のチェックを付けてください（デフォルトではチェックがついていません）**]
+ **下の画像のAdd Anaconda to my PATH environment variableの部分のチェックを付けてください（デフォルトではチェックがついていません)**
 
 ![Anaconda to my pathにチェック](https://i.imgur.com/8vENWk4.png)
 

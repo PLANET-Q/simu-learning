@@ -252,7 +252,8 @@ $ forecast_csvname: &#x4E88;&#x5831;&#x98A8;&#x306E;&#x30D5;&#x30A1;&#x30A4;&#x3
 forecast_csvname, wind_forecast_csv/20190501.csv
 </code></pre>
 <h3 id="&#x8AA4;&#x5DEE;&#x7D71;&#x8A08;&#x30E2;&#x30C7;&#x30EB;">&#x8AA4;&#x5DEE;&#x7D71;&#x8A08;&#x30E2;&#x30C7;&#x30EB;</h3>
-<p>&#x5F53;&#x65E5;&#x306E;&#x4E88;&#x5831;&#x98A8;&#x3092;&#x4E2D;&#x5FC3;&#x3068;&#x3057;&#x3066;&#x8AA4;&#x5DEE;&#x3092;&#x8003;&#x616E;&#x3057;&#x305F;&#x843D;&#x4E0B;&#x7BC4;&#x56F2;&#x306E;&#x8A08;&#x7B97;&#x3092;&#x884C;&#x3046;&#x98A8;&#x30E2;&#x30C7;&#x30EB;&#x3002;(beta&#x7248;)<br>&#x8A2D;&#x5B9A;&#x3059;&#x3079;&#x304D;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x306F; <code>wind_direction</code>, <code>wind_speed</code>&#xFF0C;<code>wind_direction_original</code>, <code>error_stat_filename</code>&#x306E;4&#x3064;&#x3002;</p>
+<p>&#x5F53;&#x65E5;&#x306E;&#x4E88;&#x5831;&#x98A8;&#x3092;&#x4E2D;&#x5FC3;&#x3068;&#x3057;&#x3066;&#x8AA4;&#x5DEE;&#x3092;&#x8003;&#x616E;&#x3057;&#x305F;&#x843D;&#x4E0B;&#x7BC4;&#x56F2;&#x306E;&#x8A08;&#x7B97;&#x3092;&#x884C;&#x3046;&#x98A8;&#x30E2;&#x30C7;&#x30EB;&#x3002;(beta&#x7248;)<br>&#x8A2D;&#x5B9A;&#x3059;&#x3079;&#x304D;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x306F; <code>wind_direction</code>, <code>wind_speed</code>&#xFF0C;<code>wind_direction_original</code>, <code>error_stat_filename</code>&#x306E;4&#x3064;&#x3002;
+<code>error_stat_filename</code> &#x3067;&#x8A2D;&#x5B9A;&#x3059;&#x308B;&#x8AA4;&#x5DEE;&#x7D71;&#x8A08;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x306F; PLANET-Q&#x306E;Github&#x3067;&#x516C;&#x958B;&#x3055;&#x308C;&#x3066;&#x3044;&#x308B; <a href="https://github.com/PLANET-Q/StatwindTool" target="_blank"><code>StatWindTool</code></a> &#x3067;&#x51FA;&#x529B;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;</p>
 <h4 id="&#x30C6;&#x30F3;&#x30D7;&#x30EC;&#x30FC;&#x30C8;">&#x30C6;&#x30F3;&#x30D7;&#x30EC;&#x30FC;&#x30C8;</h4>
 <pre><code class="lang-parameters_wind.csv">$ wind_model: &#x98A8;&#x30E2;&#x30C7;&#x30EB;(&#x6570;&#x5024;&#x4E88;&#x5831;)
 wind_model, error-statistics
@@ -293,9 +294,126 @@ error_stat_filename, statistics_parameters/parameter.json
 &#x4E00;&#x5217;&#x76EE;&#x304B;&#x3089;&#x3001; &#x98A8;&#x901F;&#x306E;&#x5357;&#x5317;&#x6210;&#x5206;[m/s] (&#x5357;&#x304B;&#x3089;&#x5317;&#x3092;&#x6B63;)&#x3001;&#x98A8;&#x901F;&#x306E;&#x6771;&#x897F;&#x6210;&#x5206;[m/s] (&#x897F;&#x304B;&#x3089;&#x6771;&#x3092;&#x6B63;)&#x3001; &#x901F;&#x5EA6;[m/s]&#x3001; &#x9AD8;&#x5EA6;[m]&#x3001; &#x6E29;&#x5EA6;[K] &#x3067;&#x3059;&#x3002;&#x3053;&#x308C;&#x306F;PLAQ&#x3067;&#x5F93;&#x6765;&#x4F7F;&#x7528;&#x3055;&#x308C;&#x3066;&#x304D;&#x305F;&#x4E88;&#x5831;&#x98A8;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x306E;&#x5F62;&#x5F0F;&#x306B;&#x6CBF;&#x3063;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;
 &#x4ECA;&#x306E;&#x6240;&#x3001;temperature(&#x6E29;&#x5EA6;)&#x306E;&#x60C5;&#x5831;&#x306F;&#x4F7F;&#x7528;&#x3055;&#x308C;&#x3066;&#x304A;&#x3089;&#x305A;&#x5FC5;&#x8981;&#x3042;&#x308A;&#x307E;&#x305B;&#x3093;&#x3002;</p>
 <h2 id="&#x8AA4;&#x5DEE;&#x7D71;&#x8A08;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x306E;&#x5F62;&#x5F0F;">&#x8AA4;&#x5DEE;&#x7D71;&#x8A08;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x306E;&#x5F62;&#x5F0F;</h2>
-<p>&#x8AA4;&#x5DEE;&#x7D71;&#x8A08;&#x98A8;&#x30E2;&#x30C7;&#x30EB;&#x306B;&#x4F7F;&#x7528;&#x3055;&#x308C;&#x308B;&#x8AA4;&#x5DEE;&#x7D71;&#x8A08;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x306F;&#x4EE5;&#x4E0B;&#x306E;&#x3088;&#x3046;&#x306A;JSON&#x5F62;&#x5F0F;&#x306E;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3067;&#x3059;&#x3002;</p>
-<pre><code class="lang-error_stat_sample.json">WIP
+<p>&#x8AA4;&#x5DEE;&#x7D71;&#x8A08;&#x98A8;&#x30E2;&#x30C7;&#x30EB;&#x306B;&#x4F7F;&#x7528;&#x3055;&#x308C;&#x308B;&#x8AA4;&#x5DEE;&#x7D71;&#x8A08;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x306F;&#x4EE5;&#x4E0B;&#x306E;&#x3088;&#x3046;&#x306A;&#x5F62;&#x5F0F;&#x306E;JSON&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3067;&#x3059;&#x3002;
+&#x3053;&#x306E;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x306F; PLANET-Q&#x306E;Github&#x3067;&#x516C;&#x958B;&#x3055;&#x308C;&#x3066;&#x3044;&#x308B; <a href="https://github.com/PLANET-Q/StatwindTool" target="_blank"><code>StatWindTool</code></a> &#x3067;&#x51FA;&#x529B;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;</p>
+<pre><code class="lang-error_stat_sample.json">{
+    &quot;alt_axis&quot;: [
+        200,
+        350,
+        ...,
+        6950,
+        7100
+    ],
+    &quot;years&quot;: [
+        2008,
+        2009,
+        ...
+        2017,
+        2018
+    ],
+    &quot;months&quot;: [
+        8
+    ],
+    &quot;days&quot;: [
+        2,
+        3,
+        ...,
+        30,
+        31
+    ],
+    &quot;location&quot;: &quot;Akita&quot;,
+    &quot;target_hour&quot;: 6,
+    &quot;MSM_init_hour&quot;: 21,
+    &quot;MSM_forecast_hour&quot;: 9,
+    &quot;mu4&quot;: [
+        [
+            1.0483702774002868,
+            0.005439165909110749,
+            -0.9952985032688203,
+            2.205728970018788
+        ],
+        [
+            -0.20573098962304276,
+            -0.15349052720969528,
+            9.497616652944965,
+            1.284162459503486
+        ],
+        ...,
+        [
+            -0.10705842693067491,
+            0.27652825814503124,
+            13.667870451612428,
+            1.678028177900628
+        ]
+    ],
+    &quot;sigma4&quot;: [
+        [
+            [
+                6.97904286852415,
+                -0.9218908323838135,
+                1.9280880289919333,
+                1.859624624942863
+            ],
+            [
+                -0.9218908323838135,
+                3.916360085983721,
+                0.7901207149893837,
+                0.9674052832394268
+            ],
+            [
+                1.9280880289919333,
+                0.7901207149893837,
+                16.971468673196227,
+                -2.258724340178294
+            ],
+            [
+                1.859624624942863,
+                0.9674052832394268,
+                -2.258724340178294,
+                8.440268807872314
+            ]
+        ],
+        ...,
+        [
+            [
+                12.800725187062143,
+                1.390235492662218,
+                10.599566759145949,
+                0.2750220743394396
+            ],
+            [
+                1.390235492662218,
+                13.202991916887926,
+                -0.6128283887994487,
+                10.055788876458303
+            ],
+            [
+                10.599566759145949,
+                -0.6128283887994487,
+                72.74344477770023,
+                13.722244408065603
+            ],
+            [
+                0.2750220743394396,
+                10.055788876458303,
+                13.722244408065603,
+                81.36706111852321
+            ]
+        ]
+    ]
+}
 </code></pre>
+<h3 id="&#x8AA4;&#x5DEE;&#x7D71;&#x8A08;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x306E;&#x6982;&#x8981;">&#x8AA4;&#x5DEE;&#x7D71;&#x8A08;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x306E;&#x6982;&#x8981;</h3>
+<ul>
+<li><code>alt_axis</code> &#x306F;&#x8AA4;&#x5DEE;&#x7D71;&#x8A08;&#x6955;&#x5186;&#x3092;&#x8A08;&#x7B97;&#x3057;&#x305F;&#x9AD8;&#x5EA6;&#x306E;&#x30EA;&#x30B9;&#x30C8;</li>
+<li><code>years</code>, <code>months</code>, <code>days</code> &#x306F;&#x7D71;&#x8A08;&#x3092;&#x53D6;&#x3063;&#x305F;&#x65E5;&#x306E;&#x30EA;&#x30B9;&#x30C8;</li>
+<li><code>location</code> &#x306F;&#x5BFE;&#x8C61;&#x306E;&#x5730;&#x70B9;&#x540D;</li>
+<li><code>target_hour</code> &#x306F;&#x5BFE;&#x8C61;&#x306E;&#x6642;&#x523B;</li>
+<li><code>MSM_init_hour</code> &#x306F;&#x4E88;&#x5831;&#x767A;&#x8868;&#x6642;&#x523B;</li>
+<li><code>MSM_forecast_hour</code> &#x306F;&#x4E88;&#x5831;&#x767A;&#x8868;&#x304B;&#x3089;&#x4F55;&#x6642;&#x9593;&#x5F8C;&#x306E;&#x4E88;&#x5831;&#x304B;(&#x3053;&#x306E;&#x5834;&#x5408;21&#x6642;&#x767A;&#x8868;&#x306E;9&#x6642;&#x9593;&#x5F8C;&#x4E88;&#x5831;&#x3068;&#x3044;&#x3046;&#x610F;&#x5473;)</li>
+<li><code>mu4</code> &#x306F; <code>alt_axis</code>&#x306E;&#x5404;&#x9AD8;&#x5EA6;&#x306B;&#x304A;&#x3051;&#x308B; &#x8AA4;&#x5DEE;&#x5E73;&#x5747;u, &#x8AA4;&#x5DEE;&#x5E73;&#x5747;v, &#x89B3;&#x6E2C;&#x5E73;&#x5747;u, &#x89B3;&#x6E2C;&#x5E73;&#x5747;v &#x306E;&#x9806;&#x306B;&#x4E26;&#x3093;&#x3060;&#x5E73;&#x5747;&#x30D9;&#x30AF;&#x30C8;&#x30EB;</li>
+<li><code>sigma4</code> &#x306F; <code>alt_axis</code> &#x306E;&#x5404;&#x9AD8;&#x5EA6;&#x306B;&#x304A;&#x3051;&#x308B; &#x5171;&#x5206;&#x6563;&#x884C;&#x5217;</li>
+</ul>
 
                                 
                                 </section>
@@ -335,7 +453,7 @@ error_stat_filename, statistics_parameters/parameter.json
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"風モデルのパラメータ設定","level":"1.4.2","depth":2,"previous":{"title":"TrajecSimuのパラメータ解説","level":"1.4.1","depth":2,"path":"src/about_parameters.md","ref":"src/about_parameters.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["custom-favicon"],"pluginsConfig":{"favicon":"favicon/favicon.ico","custom-favicon":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"src/wind_model.md","mtime":"2019-05-23T02:02:16.688Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-05-23T02:06:13.271Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"風モデルのパラメータ設定","level":"1.4.2","depth":2,"previous":{"title":"TrajecSimuのパラメータ解説","level":"1.4.1","depth":2,"path":"src/about_parameters.md","ref":"src/about_parameters.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["custom-favicon"],"pluginsConfig":{"favicon":"favicon/favicon.ico","custom-favicon":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"src/wind_model.md","mtime":"2019-05-26T01:26:51.376Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-05-26T01:31:16.066Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

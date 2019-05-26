@@ -15,6 +15,8 @@ python(anaconda)のインストールが終わっていない場合は先にイ�
 TrajecSimuは **github** に公開されています。  
 以下のサイト上の方の **Clone or download** をクリックし、**Open in Desktop**
 をクリックしてGithubDesktopを開きましょう。  
+[TrajecSimuのGithub](https://github.com/PLANET-Q/TrajecSimu)
+
 **注意** ：この時点でGithub DesktopをPCにインストールしていない場合は何も起こりません。[こちら](setup_githubdesktop.md)をみてインストールしてください  
 
 ![Open in Desktop](https://i.imgur.com/9Me6BnM.png)
